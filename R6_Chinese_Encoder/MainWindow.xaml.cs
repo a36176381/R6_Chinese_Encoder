@@ -24,6 +24,11 @@ namespace R6_Chinese_Encoder
         public MainWindow()
         {
             InitializeComponent();
+            Icon.MouseDown += (s, e) =>
+            {
+                System.Diagnostics.Process.Start("https://github.com/a36176381/R6_Chinese_Encoder/");
+
+            };
             textBox1.PreviewTextInput += (s, e) =>
             {
                 e.Handled = new Regex("[^\u4e00-\u9fa5]").IsMatch(e.Text);

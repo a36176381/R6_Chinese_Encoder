@@ -7,8 +7,12 @@
         mc:Ignorable="d"
         Title="R6_Coder" Height="420" Width="300">
     <Grid>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Center" Margin="0,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Button Name="btn1" Content="轉換" HorizontalAlignment="Center" Margin="0,90,0,0" VerticalAlignment="Top" Width="120"/>
-        <TextBox IsEnabled="False" x:Name="textBox2" HorizontalAlignment="Center" Margin="0,156,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Height="224"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="30,30,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Name="btn1" Content="轉換" HorizontalAlignment="Left" Margin="30,84,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox IsEnabled="False" x:Name="textBox2" HorizontalAlignment="Left" Margin="30,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Height="224"/>
+        <Label Content="使用方法:&#xD;&#xA;1.聊天欄中按住alt&#xD;&#xA;2.輸入轉換後的數字&#xD;&#xA;3.放開alt" HorizontalAlignment="Left" Margin="168,40,0,0" VerticalAlignment="Top"/>
+        <Image ToolTip="打開GitHub" x:Name="Icon" HorizontalAlignment="Left" Height="103" Margin="168,175,0,0" VerticalAlignment="Top" Width="120" Source="/app.ico"/>
+        <Label Content="GitHub:" HorizontalAlignment="Left" Margin="173,150,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>
